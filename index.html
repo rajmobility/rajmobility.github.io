@@ -25,28 +25,17 @@
 
   <title>pdsdemo</title>
   <link rel="manifest" href="manifest.json">
-  <link type="text/css" rel="stylesheet" href="https://source.zoom.us/1.9.7/css/bootstrap.css" />
-<link type="text/css" rel="stylesheet" href="https://source.zoom.us/1.9.7/css/react-select.css" />
   <script src="app.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="splash/style.css">
 </head>
-<body onload="initWindow();">
-<!-- import ZoomMtg dependencies -->
-<script src="https://source.zoom.us/1.9.7/lib/vendor/react.min.js"></script>
-<script src="https://source.zoom.us/1.9.7/lib/vendor/react-dom.min.js"></script>
-<script src="https://source.zoom.us/1.9.7/lib/vendor/redux.min.js"></script>
-<script src="https://source.zoom.us/1.9.7/lib/vendor/redux-thunk.min.js"></script>
-<script src="https://source.zoom.us/1.9.7/lib/vendor/lodash.min.js"></script>
-<script src="https://source.zoom.us/1.9.7/lib/av/1508_js_media.min.js"></script>
-
-<!-- import ZoomMtg -->
-<script src="https://source.zoom.us/zoom-meeting-1.9.7.min.js"></script>
+<body onload="initWindow();" style="background-color:white;">
 
 <script src="main.dart.js" type="application/javascript"></script>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '1432532889';
+    var serviceWorkerVersion = '1013660841';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
